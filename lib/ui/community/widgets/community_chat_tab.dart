@@ -26,6 +26,7 @@ class CommunityChatTab extends StatelessWidget {
         onPressed: () {
           // Start new conversation
         },
+        heroTag: 'chatFAB',
         backgroundColor: Theme.of(context).colorScheme.primary,
         child: const Icon(Icons.message),
       ),

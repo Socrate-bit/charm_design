@@ -4,6 +4,7 @@ import 'ui/navigation/view_model/navigation_cubit.dart';
 import 'ui/core/themes/theme.dart';
 import 'ui/affirmations/widgets/affirmations_screen.dart';
 import 'ui/community/widgets/community_screen.dart';
+import 'ui/profile/widgets/profile_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -46,7 +47,10 @@ class MainApp extends StatelessWidget {
                       IconButton(
                         icon: Icon(Icons.account_circle, color: Theme.of(context).colorScheme.onSurface,),
                         onPressed: () {
-                          // Navigate to profile
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => const ProfileScreen()),
+                          );
                         },
                       ),
                     ],
@@ -63,6 +67,7 @@ class MainApp extends StatelessWidget {
                   floatingActionButton: FloatingActionButton(
                     backgroundColor: Theme.of(context).colorScheme.primary.withOpacity(0.6), 
                     foregroundColor: Theme.of(context).colorScheme.onSurface,
+                    heroTag: 'mainFAB',
                     shape: const CircleBorder(),
                     onPressed: () {
                       // Handle affirmation of the day action
