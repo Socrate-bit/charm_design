@@ -23,6 +23,7 @@ class CommunityChatTab extends StatelessWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: 'chatTabFAB',
         onPressed: () {
           // Start new conversation
         },
