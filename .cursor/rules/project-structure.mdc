@@ -9,32 +9,28 @@ alwaysApply: true
 - Use cubit as state manager and dependancy injection
 - Use light theme
 
-lib
-├─┬─ ui
-│ ├─┬─ core
+├─┬─ features
+│ ├─┬─ <FEATURE NAME>
 │ │ ├─┬─ ui
-│ │ │ └─── <shared widgets>
-│ │ └─── themes
-│ └─┬─ <FEATURE NAME>
-│   ├─┬─ view_model
-│   │ └─── <view_model class>.dart
-│   └─┬─ widgets
-│     ├── <feature name>_screen.dart
-│     └── <other widgets>
-├─┬─ domain
-│ └─┬─ models
-│   └─── <model name>.dart
-├─┬─ data
-│ ├─┬─ repositories
-│ │ └─── <repository class>.dart
-│ ├─┬─ services
-│ │ └─── <service class>.dart
-│ └─┬─ model
-│   └─── <api model class>.dart
+│ │ │ ├─── <feature name>_screen.dart
+│ │ │ └─── <other widgets>
+│ │ ├─┬─ view_model
+│ │ │ └─── <view_model class>.dart
+│ │ ├─┬─ domain
+│ │ │ └─── <model name>.dart
+│ │ ├─┬─ data
+│ │ │ ├─── <repository class>.dart
+│ │ │ ├─── <service class>.dart
+│ │ │ └─── <api model class>.dart
+│ └─┬─ shared
+│   ├─┬─ core_ui
+│   │ ├─── <shared widgets>
+│   │ └─── themes
 ├─── config
 ├─── utils
 ├─── routing
 └─── main.dart
+
 
 // The test folder contains unit and widget tests
 test

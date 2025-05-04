@@ -9,8 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.0.0
-  intl: ^0.18.1
+  flutter_bloc: ^9.1.0
+  intl: ^0.19.0
+
+  flutter_iconly: ^1.0.2
+  material_design_icons_flutter: ^7.0.7296
+  equatable: ^2.0.5
+  font_awesome_flutter: ^10.8.0
+  xml: ^6.5.0
+  path_drawing: ^1.0.1
+  graphic: ^2.5.1
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +27,16 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/Illustration16.png
+    - assets/Charm-4.png
+    - assets/images/
+    - assets/images/
+    - assets/icons/
+    - assets/icons_2/
+    - assets/lotties/
+    - assets/etc/
+    - assets/Svg/drawing-4.svg
+ 
