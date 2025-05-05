@@ -1,11 +1,11 @@
-import '../../../domain/models/user.dart';
+import '../../friends/domain/user.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../view_model/profile_cubit.dart';
-import '../../../data/repositories/user_repository.dart';
-import '../../../data/repositories/post_repository.dart';
+import '../../friends/data/user_repository.dart';
+import '../../feed/data/post_repository.dart';
 import 'post_widget.dart';
 import 'settings_screen.dart';
 

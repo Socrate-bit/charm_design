@@ -1,5 +1,5 @@
-import '../../domain/models/post.dart';
-import '../repositories/user_repository.dart';
+import '../domain/post.dart';
+import '../../friends/data/user_repository.dart';
 import 'dart:developer' as developer;
 
 class PostRepository {

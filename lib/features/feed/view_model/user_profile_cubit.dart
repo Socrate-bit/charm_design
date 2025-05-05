@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
-import '../../../data/repositories/user_repository.dart';
-import '../../../data/repositories/post_repository.dart';
-import '../../../domain/models/user.dart';
-import '../../../domain/models/post.dart';
+import '../../friends/data/user_repository.dart';
+import '../data/post_repository.dart';
+import '../../friends/domain/user.dart';
+import '../domain/post.dart';
 
 class UserProfileState {
   final User? user;

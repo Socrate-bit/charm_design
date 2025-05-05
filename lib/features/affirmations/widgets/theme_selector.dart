@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'dart:ui';
 import '../view_model/affirmations_cubit.dart';
-import '../../../domain/models/affirmation_theme.dart';
+import '../domain/affirmation_theme.dart';
 
 class ThemeSelector extends StatelessWidget {
   const ThemeSelector({Key? key}) : super(key: key);

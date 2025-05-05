@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../domain/models/post.dart';
+import '../../feed/domain/post.dart';
 import '../../../utils/date_utils.dart';
-import '../../../ui/community/widgets/user_profile_screen.dart';
+import '../../feed/widgets/user_profile_screen.dart';
 import 'dart:developer' as developer;
 
 class PostWidget extends StatelessWidget {

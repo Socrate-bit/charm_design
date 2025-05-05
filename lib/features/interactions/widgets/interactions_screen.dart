@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../view_model/interactions_cubit.dart';
-import '../../../domain/models/interaction_session.dart';
+import '../domain/interaction_session.dart';
 import 'interaction_history_item.dart';
 import 'quick_stats_widget.dart';
 

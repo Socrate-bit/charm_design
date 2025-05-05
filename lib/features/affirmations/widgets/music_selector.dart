@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'dart:ui';
 import '../view_model/affirmations_cubit.dart';
-import '../../../domain/models/affirmation_music.dart';
+import '../domain/affirmation_music.dart';
 
 class MusicSelector extends StatelessWidget {
   const MusicSelector({Key? key}) : super(key: key);

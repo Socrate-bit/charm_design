@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../domain/models/post.dart';
+import '../domain/post.dart';
 import '../../../utils/date_utils.dart';
 import 'user_profile_screen.dart';
 import 'dart:developer' as developer;

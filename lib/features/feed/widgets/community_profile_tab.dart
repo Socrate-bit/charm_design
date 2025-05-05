@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/post_repository.dart';
-import '../../../data/repositories/user_repository.dart';
-import '../../../domain/models/post.dart';
-import '../../../domain/models/user.dart';
+import '../data/post_repository.dart';
+import '../../friends/data/user_repository.dart';
+import '../domain/post.dart';
+import '../../friends/domain/user.dart';
 import 'post_widget.dart';
 
 class CommunityProfileTab extends StatelessWidget {

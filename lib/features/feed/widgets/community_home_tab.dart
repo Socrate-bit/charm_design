@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import '../../../data/repositories/post_repository.dart';
-import '../../../domain/models/post.dart';
-import '../../../data/repositories/user_repository.dart';
+import '../data/post_repository.dart';
+import '../domain/post.dart';
+import '../../friends/data/user_repository.dart';
 import 'post_widget.dart';
 
 class CommunityHomeTab extends StatelessWidget {

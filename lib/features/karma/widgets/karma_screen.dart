@@ -3,9 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../view_model/karma_cubit.dart';
-import '../../../domain/models/karma.dart';
-import '../../../ui/core/themes/theme.dart';
-import '../../../data/repositories/user_repository.dart';
+import '../domain/karma.dart';
+import '../../shared/themes/theme.dart';
+import '../../friends/data/user_repository.dart';
 
 class KarmaScreen extends StatefulWidget {
   const KarmaScreen({Key? key}) : super(key: key);

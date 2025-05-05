@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/post_repository.dart';
-import '../../../domain/models/post.dart';
+import '../data/post_repository.dart';
+import '../domain/post.dart';
 import 'post_widget.dart';
 
 class CommunityBookmarkedTab extends StatelessWidget {

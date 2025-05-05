@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
-import '../../../data/repositories/user_repository.dart';
-import '../../../domain/models/user.dart';
+import '../../friends/data/user_repository.dart';
+import '../../friends/domain/user.dart';
 import 'user_profile_screen.dart';
 
 class CommunityFriendsTab extends StatefulWidget {

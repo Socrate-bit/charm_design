@@ -3,9 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'dart:developer' as developer;
 import '../view_model/user_profile_cubit.dart';
-import '../../../data/repositories/user_repository.dart';
-import '../../../data/repositories/post_repository.dart';
-import '../../../domain/models/user.dart';
+import '../../friends/data/user_repository.dart';
+import '../data/post_repository.dart';
+import '../../friends/domain/user.dart';
 import 'post_widget.dart';
 
 class UserProfileScreen extends StatelessWidget {

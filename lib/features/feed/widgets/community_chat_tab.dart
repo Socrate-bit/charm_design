@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/chat_repository.dart';
-import '../../../domain/models/chat.dart';
+import '../../chats/data/chat_repository.dart';
+import '../../chats/domain/chat.dart';
 import '../../../utils/date_utils.dart';
 
 class CommunityChatTab extends StatelessWidget {

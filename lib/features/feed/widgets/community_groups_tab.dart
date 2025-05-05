@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/group_repository.dart';
-import '../../../domain/models/group.dart';
+import '../../groups/data/group_repository.dart';
+import '../../groups/domain/group.dart';
 
 class CommunityGroupsTab extends StatelessWidget {
   const CommunityGroupsTab({Key? key}) : super(key: key);

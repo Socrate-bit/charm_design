@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
-import '../../../domain/models/karma.dart';
-import '../../../data/repositories/user_repository.dart';
+import '../domain/karma.dart';
+import '../../friends/data/user_repository.dart';
 
 class KarmaState {
   final Karma karma;

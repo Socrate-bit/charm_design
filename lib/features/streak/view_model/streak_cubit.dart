@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../domain/models/streak.dart';
-import '../../../data/repositories/user_repository.dart';
+import '../domain/streak.dart';
+import '../../friends/data/user_repository.dart';
 
 class StreakState {
   final Streak streak;

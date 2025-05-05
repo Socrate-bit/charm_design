@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import '../../../domain/models/interaction_session.dart';
+import '../domain/interaction_session.dart';
 
 part 'interactions_state.dart';
 

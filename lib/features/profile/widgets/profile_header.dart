@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../domain/models/user.dart';
+import '../../friends/domain/user.dart';
 
 class ProfileHeader extends StatelessWidget {
   final User user;

@@ -1,4 +1,4 @@
-import '../../domain/models/chat.dart';
+import '../domain/chat.dart';
 
 class ChatRepository {
   List<ChatConversation> getConversations() {

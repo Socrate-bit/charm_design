@@ -1,4 +1,4 @@
-import '../../domain/models/user.dart';
+import '../domain/user.dart';
 import 'dart:developer' as developer;
 
 class UserRepository {

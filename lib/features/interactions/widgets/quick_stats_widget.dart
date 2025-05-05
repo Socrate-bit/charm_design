@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../view_model/interactions_cubit.dart';
-import '../../../domain/models/interaction_session.dart';
+import '../domain/interaction_session.dart';
 
 class QuickStatsWidget extends StatelessWidget {
   const QuickStatsWidget({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../domain/models/affirmation_theme.dart';
-import '../../../domain/models/affirmation_music.dart';
+import '../domain/affirmation_theme.dart';
+import '../domain/affirmation_music.dart';
 
 class AffirmationsState {
   final int selectedAffirmationIndex;

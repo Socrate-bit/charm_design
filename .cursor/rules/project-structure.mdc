@@ -36,3 +36,5 @@ alwaysApply: true
 test
 ├─── tests
 
+# Code
+Try to modify only the files in the target feature folder

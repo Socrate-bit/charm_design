@@ -1,4 +1,4 @@
-import '../../domain/models/group.dart';
+import '../domain/group.dart';
 
 class GroupRepository {
   List<Group> getMyGroups() {

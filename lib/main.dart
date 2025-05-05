@@ -5,9 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'features/navigation/view_model/navigation_cubit.dart';
-import 'features/core/themes/theme.dart';
+import 'features/shared/themes/theme.dart';
 import 'features/affirmations/widgets/affirmations_screen.dart';
-import 'features/community/widgets/community_screen.dart';
+import 'features/feed/widgets/community_screen.dart';
 import 'features/profile/widgets/profile_screen.dart';
 import 'features/streak/widgets/streak_screen.dart';
 import 'features/streak/view_model/streak_cubit.dart';
@@ -15,8 +15,8 @@ import 'features/karma/view_model/karma_cubit.dart';
 import 'features/karma/widgets/karma_screen.dart';
 import 'features/interactions/widgets/interactions_screen.dart';
 import 'features/growth/widgets/growth_screen.dart';
-import 'features/community/widgets/community_profile_tab.dart';
-import 'data/repositories/user_repository.dart';
+import 'features/feed/widgets/community_profile_tab.dart';
+import 'features/friends/data/user_repository.dart';
 
 void main() {
   runApp(const MainApp());

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../../../domain/models/interaction_session.dart';
+import '../domain/interaction_session.dart';
 
 class InteractionHistoryItem extends StatelessWidget {
   final InteractionSession session;

@@ -1,5 +1,5 @@
-import '../../../ui/home/battery_indcator.dart';
-import '../../../ui/home/polar_grid_mock.dart';
+import 'battery_indcator.dart';
+import 'polar_grid_mock.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
